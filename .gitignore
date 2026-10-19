@@ -1,0 +1,11 @@
+# Игнорируем виртуальное окружение
+.venv/
+__pycache__/
+
+# Игнорируем тяжелые данные и базы данных
+data/raw/*.csv
+data/processed/*.db
+data/processed/*.wal
+
+# Игнорируем технические файлы Jupyter
+.ipynb_checkpoints/
